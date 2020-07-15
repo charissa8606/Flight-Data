@@ -12,7 +12,7 @@ def main():
                     file.write('curl -v  -X GET "https://api.flightstats.com/flex/\
 flightstatus/historical/rest/v3/xml/airport/status/BKO/dep/2019/'+ str(month) + '/\
 ' + str(date) + '/' + str(hour) + '?appId=46581572&appKey=fbb93d4e4994d52fb2a42\
-e0053e40a4b&utc=false&numHours=6" >> TMS.txt' + '\n')
+e0053e40a4b&utc=false&numHours=6" >> BKO2019Departures.txt' + '\n')
 
         ##if 31 days in month
         elif month in (1,3,5,7,8,10,12):
@@ -21,7 +21,7 @@ e0053e40a4b&utc=false&numHours=6" >> TMS.txt' + '\n')
                     file.write('curl -v  -X GET "https://api.flightstats.com/flex/\
 flightstatus/historical/rest/v3/xml/airport/status/BKO/dep/2019/'+ str(month) + '/\
 ' + str(date) + '/' + str(hour) + '?appId=46581572&appKey=fbb93d4e4994d52fb2a42\
-e0053e40a4b&utc=false&numHours=6" >> TMS.txt' + '\n')
+e0053e40a4b&utc=false&numHours=6" >> BKO2019Departures.txt' + '\n')
 
         ##if 30 days in month
         else:
@@ -30,7 +30,7 @@ e0053e40a4b&utc=false&numHours=6" >> TMS.txt' + '\n')
                     file.write('curl -v  -X GET "https://api.flightstats.com/flex/\
 flightstatus/historical/rest/v3/xml/airport/status/BKO/dep/2019/'+ str(month) + '/\
 ' + str(date) + '/' + str(hour) + '?appId=46581572&appKey=fbb93d4e4994d52fb2a42\
-e0053e40a4b&utc=false&numHours=6" >> TMS.txt' + '\n')
+e0053e40a4b&utc=false&numHours=6" >> BKO2019Departures.txt' + '\n')
 
     ##closes file
     file.close()
